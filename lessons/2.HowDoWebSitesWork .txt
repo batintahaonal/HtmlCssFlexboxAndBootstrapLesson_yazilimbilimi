@@ -1,0 +1,33 @@
+How Does a Website Work?
+1. User Request
+The user types a website address (URL) into a web browser (Chrome, Firefox, Safari, etc.) or clicks a link.
+
+The browser sends an HTTP request to the web server associated with that URL.
+
+2. DNS Lookup
+The browser queries the DNS (Domain Name System) server to translate the domain name (e.g., www.example.com) into an IP address that computers can understand (e.g., 192.168.1.1).
+
+3. Connecting to the Server
+Using the IP address from DNS, the browser connects to the web server and sends the HTTP request specifying which page or file it wants (like index.html).
+
+4. Server Processes the Request
+The web server (Apache, Nginx, etc.) receives the request and finds the requested file or data.
+
+If the content is dynamic (using PHP, Node.js, Python, etc.), the server processes the request and generates HTML as a response.
+
+5. Sending the Response
+The server sends back the requested HTML, CSS, JavaScript files, and other media (images, videos) as an HTTP response to the browser.
+
+6. Browser Processes the Data
+The browser receives and parses the HTML file.
+
+It downloads and applies the CSS and JavaScript files referenced in the HTML.
+
+The page is rendered visually and functionally for the user.
+
+7. Interaction and Additional Requests
+The user can interact with the page (click buttons, fill forms, scroll).
+
+These interactions may trigger new HTTP requests (e.g., API calls to load more data).
+
+This makes the website interactive.
