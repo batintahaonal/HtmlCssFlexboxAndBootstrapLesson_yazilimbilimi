@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.my-card {
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  margin: 20px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Pseudo-class: Hover effect */
+.my-card:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
+}
+
+/* Pseudo-class: First card */
+.my-card:first-child {
+  background-color: #e3f2fd;
+}
+
+/* Pseudo-class: Button focus */
+button:focus {
+  outline: 3px dashed #333;
+}
